@@ -1,0 +1,173 @@
+{
+  "steps": [
+    {
+      "id": "cameras",
+      "title": "Choose your cameras",
+      "icon": "camera",
+      "category": "Cameras",
+      "products": [
+        {
+          "id": "cam-outdoor-pro",
+          "title": "Outdoor Cam Pro",
+          "description": "1080p weatherproof camera with night vision and motion alerts.",
+          "learnMoreUrl": "#",
+          "badge": "Save 22%",
+          "comparePrice": 179,
+          "price": 139,
+          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=200&h=200&fit=crop",
+          "variants": [
+            { "id": "white", "label": "White", "swatch": "#f2f1ec" },
+            { "id": "black", "label": "Black", "swatch": "#2b2b2e" }
+          ]
+        },
+        {
+          "id": "cam-indoor-mini",
+          "title": "Indoor Cam Mini",
+          "description": "Compact indoor camera with two-way audio and 360° view.",
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": 89,
+          "price": 69,
+          "image": "https://images.unsplash.com/photo-1580983230786-4ce9baefa9d0?w=200&h=200&fit=crop",
+          "variants": [
+            { "id": "white", "label": "White", "swatch": "#f2f1ec" },
+            { "id": "black", "label": "Black", "swatch": "#2b2b2e" }
+          ]
+        },
+        {
+          "id": "video-doorbell",
+          "title": "Video Doorbell",
+          "description": "HD doorbell camera with real-time chime and two-way talk.",
+          "learnMoreUrl": "#",
+          "badge": "Save 15%",
+          "comparePrice": 129,
+          "price": 109,
+          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop",
+          "variants": null
+        }
+      ]
+    },
+    {
+      "id": "plan",
+      "title": "Choose your plan",
+      "icon": "shield",
+      "category": "Plan",
+      "singleSelect": true,
+      "products": [
+        {
+          "id": "plan-basic",
+          "title": "Basic Monitoring",
+          "description": "Self-monitoring with mobile alerts. No contract.",
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": null,
+          "price": 0,
+          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=200&h=200&fit=crop",
+          "variants": null
+        },
+        {
+          "id": "plan-pro",
+          "title": "Pro Monitoring",
+          "description": "24/7 professional monitoring with emergency dispatch.",
+          "learnMoreUrl": "#",
+          "badge": "Most popular",
+          "comparePrice": 19.99,
+          "price": 14.99,
+          "image": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=200&h=200&fit=crop",
+          "variants": null
+        },
+        {
+          "id": "plan-premium",
+          "title": "Premium Monitoring",
+          "description": "24/7 monitoring, cloud storage, and priority support.",
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": 29.99,
+          "price": 24.99,
+          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop",
+          "variants": null
+        }
+      ]
+    },
+    {
+      "id": "sensors",
+      "title": "Choose your sensors",
+      "icon": "sensor",
+      "category": "Sensors",
+      "products": [
+        {
+          "id": "door-window-sensor",
+          "title": "Door & Window Sensor",
+          "description": "Detects when a door or window opens while armed.",
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": 29,
+          "price": 24,
+          "image": "https://images.unsplash.com/photo-1558002038-bfc93ffb3b4b?w=200&h=200&fit=crop",
+          "variants": [
+            { "id": "white", "label": "White", "swatch": "#f2f1ec" },
+            { "id": "black", "label": "Black", "swatch": "#2b2b2e" }
+          ]
+        },
+        {
+          "id": "motion-sensor",
+          "title": "Motion Sensor",
+          "description": "Wide-angle pet-friendly motion detection.",
+          "learnMoreUrl": "#",
+          "badge": "Save 10%",
+          "comparePrice": 39,
+          "price": 35,
+          "image": "https://images.unsplash.com/photo-1558002038-2f767e2c6a5b?w=200&h=200&fit=crop",
+          "variants": null
+        }
+      ]
+    },
+    {
+      "id": "protection",
+      "title": "Add extra protection",
+      "icon": "plus-shield",
+      "category": "Accessories",
+      "products": [
+        {
+          "id": "extended-warranty",
+          "title": "Extended Warranty",
+          "description": "Extra 2 years of coverage on all hardware.",
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": null,
+          "price": 29,
+          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=200&h=200&fit=crop",
+          "variants": null
+        },
+        {
+          "id": "water-leak-sensor",
+          "title": "Water Leak Sensor",
+          "description": "Alerts you the moment a leak is detected.",
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": 35,
+          "price": 29,
+          "image": "https://images.unsplash.com/photo-1558002038-9f767e2c6a5c?w=200&h=200&fit=crop",
+          "variants": null
+        },
+        {
+          "id": "smoke-detector",
+          "title": "Smart Smoke Detector",
+          "description": "Smoke and CO detection with instant phone alerts.",
+          "learnMoreUrl": "#",
+          "badge": "Save 18%",
+          "comparePrice": 79,
+          "price": 65,
+          "image": "https://images.unsplash.com/photo-1558002038-abcf9b8c6a1d?w=200&h=200&fit=crop",
+          "variants": null
+        }
+      ]
+    }
+  ],
+  "seedSelections": {
+    "plan-pro": { "default": 1 },
+    "door-window-sensor": { "white": 2 },
+    "motion-sensor": { "default": 1 },
+    "extended-warranty": { "default": 1 }
+  }
+}
