@@ -213,7 +213,7 @@ a {
   position: absolute;
   top: 12px;
   left: 12px;
-  background: var(--save);
+  background: #4e2fd2;
   color: #fff;
   font-size: 11px;
   font-weight: 700;
@@ -227,15 +227,29 @@ a {
   aspect-ratio: 1.4 / 1;
   border-radius: var(--radius-sm);
   overflow: hidden;
-  background: var(--bg);
+  background: #ffffff;
   margin-bottom: 12px;
 }
 
 .product-card__media img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
+}
+
+.product-card__eyebrow {
+  display: inline-block;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #2557d6;
+  background: #e6eeff;
+  padding: 3px 6px;
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 .product-card__title {
@@ -250,6 +264,18 @@ a {
   color: var(--ink-soft);
   margin: 0 0 6px;
   line-height: 1.45;
+}
+
+.product-card__features {
+  margin: 8px 0 12px;
+  padding-left: 16px;
+  font-size: 12px;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+
+.product-card__features li {
+  margin-bottom: 4px;
 }
 
 .product-card__link {
@@ -401,9 +427,27 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
   flex-shrink: 0;
-  background: var(--bg);
+  background: #ffffff;
+}
+
+.review-shipping-icon-container {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.review-shipping-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
 }
 
 .review-line__info {
@@ -414,14 +458,13 @@ a {
 .review-line__name {
   font-size: 13px;
   font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.25;
 }
 
 .review-line__price {
   font-size: 12px;
-  color: var(--ink-soft);
+  color: #4e2fd2;
+  font-weight: 600;
 }
 
 .review-panel__divider {
@@ -482,6 +525,7 @@ a {
 
 .review-total-row__amount {
   font-size: 20px;
+  color: #4e2fd2;
 }
 
 .review-savings {
@@ -535,6 +579,7 @@ a {
   .layout {
     grid-template-columns: 1fr;
   }
+
   .review-panel {
     position: static;
     order: -1;
@@ -545,18 +590,23 @@ a {
   .page {
     padding: 24px 16px 60px;
   }
+
   .page__heading {
     font-size: 26px;
   }
+
   .step__header {
     padding: 16px;
   }
+
   .step__body {
     padding: 0 16px 20px;
   }
+
   .step__grid {
     grid-template-columns: 1fr;
   }
+
   .product-card__footer {
     flex-wrap: wrap;
   }

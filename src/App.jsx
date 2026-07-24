@@ -11,14 +11,6 @@ export default function App() {
 
   return (
     <div className="page">
-      <header className="page__header">
-        <div className="page__brand">Aegis Home Security</div>
-        <h1 className="page__heading">Build your system</h1>
-        <p className="page__subheading">
-          Pick the cameras, plan, and sensors that fit your home. Everything updates live on the right.
-        </p>
-      </header>
-
       <div className="layout">
         <div className="builder">
           {data.steps.map((step, index) => (

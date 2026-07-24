@@ -7,43 +7,117 @@
       "category": "Cameras",
       "products": [
         {
-          "id": "cam-outdoor-pro",
-          "title": "Outdoor Cam Pro",
-          "description": "1080p weatherproof camera with night vision and motion alerts.",
+          "id": "wyze-cam-v4",
+          "title": "Wyze Cam v4",
+          "description": "The clearest Wyze Cam ever made.",
           "learnMoreUrl": "#",
           "badge": "Save 22%",
           "comparePrice": 179,
           "price": 139,
-          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=200&h=200&fit=crop",
+          "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-v4-wyze-labs-inc-5186547.png?v=1762447655&width=990",
           "variants": [
-            { "id": "white", "label": "White", "swatch": "#f2f1ec" },
-            { "id": "black", "label": "Black", "swatch": "#2b2b2e" }
+            {
+              "id": "white",
+              "label": "White",
+              "swatch": "#f2f1ec",
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-v4-wyze-labs-inc-5186547.png?v=1762447655&width=990"
+            },
+            {
+              "id": "black",
+              "label": "Black",
+              "swatch": "#2b2b2e",
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-v4-wyze-labs-inc-2811136.png?v=1770161074&width=990"
+            },
+            {
+              "id": "grey",
+              "label": "Grey",
+              "swatch": "#8c8b87",
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-v4-wyze-labs-inc-7932440.png?v=1770161074&width=990"
+            }
           ]
         },
         {
-          "id": "cam-indoor-mini",
-          "title": "Indoor Cam Mini",
-          "description": "Compact indoor camera with two-way audio and 360° view.",
+          "id": "wyze-cam-pan-v3",
+          "title": "Wyze Cam Pan v3",
+          "description": "Caméra 360° 1080p avec vision nocturne.",
           "learnMoreUrl": "#",
           "badge": null,
           "comparePrice": 89,
           "price": 69,
-          "image": "https://images.unsplash.com/photo-1580983230786-4ce9baefa9d0?w=200&h=200&fit=crop",
+          "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-pan-v3-wyze-labs-inc-4415418.webp?v=1773434969&width=990",
           "variants": [
-            { "id": "white", "label": "White", "swatch": "#f2f1ec" },
-            { "id": "black", "label": "Black", "swatch": "#2b2b2e" }
+            {
+              "id": "white",
+              "label": "White",
+              "swatch": "#f2f1ec",
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-pan-v3-wyze-labs-inc-4415418.webp?v=1773434969&width=990"
+            },
+            {
+              "id": "black",
+              "label": "Black",
+              "swatch": "#2b2b2e",
+              "image": "https://www.wyze.com/cdn/shop/files/refurbished-wyze-cam-pan-v3-wyze-labs-inc-689365.png?v=1773434969&width=990"
+            }
           ]
         },
         {
-          "id": "video-doorbell",
-          "title": "Video Doorbell",
-          "description": "HD doorbell camera with real-time chime and two-way talk.",
+          "id": "wyze-cam-floodlight-v2",
+          "title": "Wyze Cam Floodlight v2",
+          "description": "Caméra 2K avec éclairage de 2800 lumens",
           "learnMoreUrl": "#",
           "badge": "Save 15%",
-          "comparePrice": 129,
-          "price": 109,
-          "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200&h=200&fit=crop",
+          "comparePrice": 115,
+          "price": 97.75,
+          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?w=200&h=200&fit=crop",
+          "variants": [
+            {
+              "id": "white",
+              "label": "White",
+              "swatch": "#f2f1ec",
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-floodlight-v2-wyze-labs-inc-339891.png?v=1762445396&width=990"
+            },
+            {
+              "id": "black",
+              "label": "Black",
+              "swatch": "#2b2b2e",
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-cam-floodlight-v2-wyze-labs-inc-863303.png?v=1769624215&width=990"
+            }
+          ]
+        },
+        {
+          "id": "wyze-duo-cam-doorbell",
+          "title": "Wyze Duo Cam Doorbell",
+          "description": "Two cameras. Two views. Double the porch protection.",
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": null,
+          "price": 119.98,
+          "image": "https://www.wyze.com/cdn/shop/files/duo-cam-doorbell-extra-battery-wyze-labs-inc-3873863.png?v=1770920552&width=990",
           "variants": null
+        },
+        {
+          "id": "wyze-battery-cam-pro",
+          "title": "Wyze Battery Cam Pro",
+          "description": "Protect anywhere. See everything in 2.5K HDR. No power outlet or electrician needed.",
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": null,
+          "price": 119.98,
+          "image": "https://www.wyze.com/cdn/shop/files/wyze-battery-cam-pro-wyze-labs-inc-8072621.png?v=1764750132&width=990",
+          "variants": [
+            {
+              "id": "white",
+              "label": "White",
+              "swatch": "#f2f1ec",
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-battery-cam-pro-wyze-labs-inc-8072621.png?v=1764750132&width=990"
+            },
+            {
+              "id": "black",
+              "label": "Black",
+              "swatch": "#2b2b2e",
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-battery-cam-pro-wyze-labs-inc-7915763.png?v=1764750132&width=990"
+            }
+          ]
         }
       ]
     },
@@ -55,37 +129,63 @@
       "singleSelect": true,
       "products": [
         {
-          "id": "plan-basic",
-          "title": "Basic Monitoring",
-          "description": "Self-monitoring with mobile alerts. No contract.",
+          "id": "plan-cam-plus",
+          "title": "Cam Plus",
+          "eyebrow": "For a single camera",
+          "description": null,
           "learnMoreUrl": "#",
           "badge": null,
           "comparePrice": null,
-          "price": 0,
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=200&h=200&fit=crop",
-          "variants": null
+          "price": 2.99,
+          "priceSuffix": "/mo",
+          "image": null,
+          "variants": null,
+          "features": [
+            "DIY self-monitoring with:",
+            "14-day event video recordings saved in the cloud",
+            "Person, vehicle, package, and pet detection and alerts",
+            "Glass break, Crying, and barking detection and alerts",
+            "Animated Alerts",
+            "Access to My Day insights"
+          ]
         },
         {
-          "id": "plan-pro",
-          "title": "Pro Monitoring",
-          "description": "24/7 professional monitoring with emergency dispatch.",
-          "learnMoreUrl": "#",
-          "badge": "Most popular",
-          "comparePrice": 19.99,
-          "price": 14.99,
-          "image": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=200&h=200&fit=crop",
-          "variants": null
-        },
-        {
-          "id": "plan-premium",
-          "title": "Premium Monitoring",
-          "description": "24/7 monitoring, cloud storage, and priority support.",
+          "id": "plan-cam-unlimited",
+          "title": "Cam Unlimited",
+          "eyebrow": "Covers all your cameras",
+          "description": null,
           "learnMoreUrl": "#",
           "badge": null,
-          "comparePrice": 29.99,
-          "price": 24.99,
-          "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=200&h=200&fit=crop",
-          "variants": null
+          "comparePrice": null,
+          "price": 9.99,
+          "image": null,
+          "variants": null,
+          "features": [
+            "Everything in Cam Plus, and:",
+            "The brand-new multi-cam timeline for live view and events",
+            "Smart Arm/Disarm modes",
+            "Friendly Faces detections and unknown faces alerts",
+            "Animated Alerts"
+          ]
+        },
+        {
+          "id": "plan-cam-unlimited-pro",
+          "title": "Cam Unlimited Pro",
+          "eyebrow": "Covers all your cameras",
+          "description": null,
+          "learnMoreUrl": "#",
+          "badge": null,
+          "comparePrice": null,
+          "price": 19.99,
+          "image": null,
+          "variants": null,
+          "features": [
+            "Everything in Cam Unlimited, and:",
+            "Get a detailed understanding of what's happening from your notifications with Descriptive Alerts",
+            "Quickly find specific events in your video history with AI Video Search",
+            "Get access to the option to save up to 60-day event video recording",
+            "Send emergency services to your home even when you're away with 24/7 Emergency Dispatch"
+          ]
         }
       ]
     },
@@ -96,28 +196,36 @@
       "category": "Sensors",
       "products": [
         {
-          "id": "door-window-sensor",
-          "title": "Door & Window Sensor",
-          "description": "Detects when a door or window opens while armed.",
+          "id": "wyze-sense-motion-sensor",
+          "title": "Wyze Sense Motion Sensor",
+          "description": "Detects motion.",
           "learnMoreUrl": "#",
           "badge": null,
           "comparePrice": 29,
-          "price": 24,
-          "image": "https://images.unsplash.com/photo-1558002038-bfc93ffb3b4b?w=200&h=200&fit=crop",
-          "variants": [
-            { "id": "white", "label": "White", "swatch": "#f2f1ec" },
-            { "id": "black", "label": "Black", "swatch": "#2b2b2e" }
-          ]
+          "price": 24.98,
+          "image": "https://www.wyze.com/cdn/shop/products/wyze-sense-motion-sensor-wyze-labs-inc-814192.png?v=1762439811&width=990",
+          "variants":null
         },
         {
-          "id": "motion-sensor",
-          "title": "Motion Sensor",
-          "description": "Wide-angle pet-friendly motion detection.",
+          "id": "wyze-sense-hub",
+          "title": "Wyze Sense Hub",
+          "description": "Smart Home Monitoring System.",
           "learnMoreUrl": "#",
           "badge": "Save 10%",
-          "comparePrice": 39,
-          "price": 35,
-          "image": "https://images.unsplash.com/photo-1558002038-2f767e2c6a5b?w=200&h=200&fit=crop",
+          "comparePrice": 44,
+          "price": 40,
+          "image": "https://www.wyze.com/cdn/shop/products/wyze-sense-hub-wyze-labs-inc-960449.png?v=1762439812&width=990",
+          "variants": null
+        },
+        {
+          "id": "wyze-sense-keypad",
+          "title": "Wyze Sense Keypad",
+          "description": "Disarm your home security remotely.",
+          "learnMoreUrl": "#",
+          "badge": "Save 10%",
+          "comparePrice": 66,
+          "price": 60,
+          "image": "https://www.wyze.com/cdn/shop/products/wyze-sense-keypad-wyze-labs-inc-842216.png?v=1762439808&width=990",
           "variants": null
         }
       ]
@@ -129,45 +237,68 @@
       "category": "Accessories",
       "products": [
         {
-          "id": "extended-warranty",
-          "title": "Extended Warranty",
-          "description": "Extra 2 years of coverage on all hardware.",
+          "id": "wyze-air-filter",
+          "title": "Wyze Air Filter",
           "learnMoreUrl": "#",
           "badge": null,
-          "comparePrice": null,
-          "price": 29,
-          "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=200&h=200&fit=crop",
-          "variants": null
-        },
-        {
-          "id": "water-leak-sensor",
-          "title": "Water Leak Sensor",
-          "description": "Alerts you the moment a leak is detected.",
-          "learnMoreUrl": "#",
-          "badge": null,
-          "comparePrice": 35,
-          "price": 29,
+          "price": 29.99,
           "image": "https://images.unsplash.com/photo-1558002038-9f767e2c6a5c?w=200&h=200&fit=crop",
-          "variants": null
+          "variants": [
+            {
+              "id": "allergen",
+              "label": "Allergen",
+              "swatch": "#eef3fc",
+              "title": "Wyze Air Filter - Allergen Filter (Standard)",
+              "price": 29.99,
+              "comparePrice": 35.00,
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-air-filter-wyze-labs-inc-534238.png?v=1750111032&width=990"
+            },
+            {
+              "id": "formaldehyde",
+              "label": "Formaldehyde",
+              "swatch": "#ecfdf5",
+              "title": "Wyze Air Filter - Formaldehyde Filter (Premium)",
+              "price": 39.99,
+              "comparePrice": 45.00,
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-air-filter-wyze-labs-inc-162628.png?v=1750111033&width=990"
+            },
+            {
+              "id": "wildfire",
+              "label": "Wildfire",
+              "swatch": "#fff7ed",
+              "title": "Wyze Air Filter - Wildfire Filter (Special Use)",
+              "price": 49.99,
+              "comparePrice": 55.00,
+              "image": "https://www.wyze.com/cdn/shop/files/wyze-air-filter-wyze-labs-inc-720072.png?v=1750111033&width=990"
+            }
+          ]
         },
         {
-          "id": "smoke-detector",
-          "title": "Smart Smoke Detector",
-          "description": "Smoke and CO detection with instant phone alerts.",
+          "id": "wyze-universal-wi-fi-chime",
+          "title": "Wyze Universal Wi-Fi Chime",
+          "description": "No complicated wiring needed, just plug-in and know.",
           "learnMoreUrl": "#",
-          "badge": "Save 18%",
-          "comparePrice": 79,
-          "price": 65,
-          "image": "https://images.unsplash.com/photo-1558002038-abcf9b8c6a1d?w=200&h=200&fit=crop",
+          "badge": "",
+          "comparePrice": 32,
+          "price": 19.98,
+          "image": "https://www.wyze.com/cdn/shop/files/wyze-universal-wi-fi-chime-wyze-labs-inc-102791.png?v=1762447973&width=990",
           "variants": null
         }
       ]
     }
   ],
   "seedSelections": {
-    "plan-pro": { "default": 1 },
-    "door-window-sensor": { "white": 2 },
-    "motion-sensor": { "default": 1 },
-    "extended-warranty": { "default": 1 }
+    "plan-pro": {
+      "default": 1
+    },
+    "door-window-sensor": {
+      "white": 2
+    },
+    "motion-sensor": {
+      "default": 1
+    },
+    "extended-warranty": {
+      "default": 1
+    }
   }
 }

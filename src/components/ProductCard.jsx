@@ -5,24 +5,41 @@ export default function ProductCard({ product, cart, singleSelect }) {
   const activeVariantId = hasVariants
     ? cart.getActiveVariantId(product.id) || product.variants[0].id
     : null;
+  const activeVariant = hasVariants
+    ? product.variants.find((v) => v.id === activeVariantId)
+    : null;
+  const titleToShow = (activeVariant && activeVariant.title) || product.title;
+  const priceToShow = (activeVariant && activeVariant.price !== undefined) ? activeVariant.price : product.price;
+  const comparePriceToShow = (activeVariant && activeVariant.comparePrice !== undefined) ? activeVariant.comparePrice : product.comparePrice;
+  const imageToShow = (activeVariant && activeVariant.image) || product.image;
   const qty = cart.getQty(product.id, activeVariantId);
   const selected = qty > 0;
 
   return (
     <div className={`product-card ${selected ? "product-card--selected" : ""}`}>
       {product.badge && <span className="product-card__badge">{product.badge}</span>}
-      <div className="product-card__media">
-        <img src={product.image} alt={product.title} loading="lazy" />
-      </div>
+      {imageToShow && (
+        <div className="product-card__media">
+          <img src={imageToShow} alt={titleToShow} loading="lazy" />
+        </div>
+      )}
       <div className="product-card__body">
-        <h3 className="product-card__title">{product.title}</h3>
-        <p className="product-card__desc">{product.description}</p>
+        <h3 className="product-card__title">{titleToShow}</h3>
+        {product.eyebrow && <div className="product-card__eyebrow">{product.eyebrow}</div>}
+        {product.description && <p className="product-card__desc">{product.description}</p>}
+        {product.features && (
+          <ul className="product-card__features">
+            {product.features.map((feature, i) => (
+              <li key={i}>{feature}</li>
+            ))}
+          </ul>
+        )}
         <a className="product-card__link" href={product.learnMoreUrl}>
           Learn More
         </a>
 
         {hasVariants && (
-          <div className="variant-row" role="radiogroup" aria-label={`${product.title} color`}>
+          <div className="variant-row" role="radiogroup" aria-label={`${titleToShow} color`}>
             {product.variants.map((v) => (
               <button
                 key={v.id}
@@ -40,11 +57,12 @@ export default function ProductCard({ product, cart, singleSelect }) {
 
         <div className="product-card__footer">
           <div className="product-card__price">
-            {product.comparePrice ? (
-              <span className="price-compare">${product.comparePrice.toFixed(2)}</span>
+            {comparePriceToShow ? (
+              <span className="price-compare">${comparePriceToShow.toFixed(2)}</span>
             ) : null}
             <span className="price-active">
-              {product.price === 0 ? "Included" : `$${product.price.toFixed(2)}`}
+              {priceToShow === 0 ? "Included" : `$${priceToShow.toFixed(2)}`}
+              {product.priceSuffix || (product.id.startsWith("plan") && priceToShow > 0 ? "/mo" : "")}
             </span>
           </div>
           <QuantityStepper

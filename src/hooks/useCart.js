@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import data from "../data/products.json";
 
 const STORAGE_KEY = "bundle-builder-system-v1";
@@ -52,6 +52,16 @@ export function useCart() {
     }
     return null;
   });
+
+  useEffect(() => {
+    try {
+      const payload = { quantities, savedAt: new Date().toISOString() };
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+      setSavedAt(payload.savedAt);
+    } catch {
+      /* noop */
+    }
+  }, [quantities]);
 
   const getQty = useCallback(
     (productId, variantId) => quantities[lineKey(productId, variantId)] || 0,
